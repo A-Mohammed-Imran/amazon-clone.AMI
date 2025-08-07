@@ -1,0 +1,911 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+/* navbar */
+
+.navbar{
+    height: 100%;
+    width: 100%;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+/* nav-box:1 */
+
+.nav-logo{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height: 100%;
+    width: 100%;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+/* nav-box:2 */
+
+.nav-address{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.add-first{
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 0.9375rem;
+}
+
+.add-icon{
+    display: flex;
+}
+
+.add-second{
+    color: white;
+    margin-left: 0.25rem;
+}
+
+/* nav-box:3 */
+
+.nav-search{
+    display: flex;
+    height: 50%;
+    max-width:30%;
+    margin: 1%;
+}
+
+.nav-search:hover{
+    border: 2.5px solid orange;
+}
+
+
+.Search-selct{
+    background-color: #f3f3f3;
+    width: 15%;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.search-input{
+    font-size: 1rem;
+    width: 80%;
+}
+
+.search-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    width: 10%;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* nav-box:4 */
+.sign-in{
+    padding: 0.5%;
+    span {
+        font-size: 0.7rem;
+    }
+
+    .nav-sign{
+        font-size: 0.85rem;
+    font-weight: 700
+    }
+}
+
+.sign-return{
+    padding: 0.5%;
+    span {
+        font-size: 0.7rem;
+    }
+
+    .nav-sign{
+        font-size: 0.85rem;
+    font-weight: 700
+    }
+}
+
+/* nav-box:5 */
+
+.nav-car i{
+    font-size: 1.5rem;
+}
+
+.nav-car{
+    padding: 0.5%;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* panel */
+
+/* stage-1 */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p {
+    display: inline-block;
+    margin: 0.75%;
+    padding: 0.75%;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-details{
+    font-size: 0.9rem;
+    font-weight: 700
+}
+
+/* NAV-End */
+
+/* section */
+
+/* hero-section */
+
+.hero-section {
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 17.5rem;
+    width: 100%;
+    display: block;
+
+    .hero-p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 72.5%;
+        height: 20%;
+        width: 100%;
+
+        p {
+            font-size: 65%;
+            background-color: white;
+            height: 80%;
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    }
+}
+/* Ende Hero-section */
+
+.shopsection {
+    padding: 2.5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5%;
+    row-gap: 2rem;
+    background-color: gainsboro;
+}
+
+.mainor-box{
+    height: 20rem;
+    width: 23%;
+    background-color: white;
+    padding: 1.5%;
+    cursor: pointer;
+
+    header{
+        height: 20%;
+        display: flex;
+        align-items: center;
+        font-size: .9rem;
+        font-weight: 900;
+    }
+    .mainer-img{
+        height: 70%;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        height: 10%;
+        font-size: 0.85rem;
+        font-weight: 500;
+    }
+}
+
+
+.major-box{
+    height: 20rem;
+    width: 23%;
+    background-color: white;
+    padding: 1.5%;
+    cursor: pointer;
+    header{
+        height: 20%;
+        display: flex;
+        align-items: center;
+        font-size: .9rem;
+        font-weight: 900;
+    }
+    .major-warp{
+        height: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        
+        gap: 2.5%;
+        .box{
+            height: 48.75%;
+            width: 48.75%;
+            font-size: 0.68rem;
+            align-items: center;
+
+            .img{
+                height: 80%;
+                width: 100%;
+                background-size: cover;
+            }
+
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        height: 10%;
+        font-size: 0.85rem;
+        font-weight: 500;
+        a{
+            text-decoration: none;
+        }
+    }
+}
+
+/* Ende roter slide */
+
+.roter-slide{
+    height: 25%;
+    width: 100%;
+    background-color: white;
+    padding: 1.5%;
+    cursor: pointer;
+
+    .roter-header{
+        background-color: white;
+    }
+    .roter-imge{
+        height: 25%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    .roter-img{
+        height: auto;
+        width: 10%;
+    }
+    img{
+        padding: 15%;
+        height: 100%;
+        width: 100%;
+    }
+    
+}
+
+footer{
+    height: 2.5rem;
+    width: 100%;
+    .button{
+    height: 100%;
+    width: 100%;
+    background-color: #3E4A5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   button{
+    font-size: 100%; 
+    height: 100%;
+    width: 100%;
+    background-color: #3E4A5a;
+    border: none;
+    color: white;
+   }
+}
+
+.footer-sec{
+    background-color: #232F3E;
+    height:auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding:  5%;
+    gap: 2%;
+}
+
+.footer-list{
+    color: white;
+    background-color: #232F3E;
+    height: auto;
+    width: 25%;
+}
+.list{
+    list-style: none;
+    font-size: 75%;
+}
+
+.list h3{
+    margin-bottom: 10px;
+}
+
+.list li{
+    font-size: 80%;
+    margin-bottom: 5%;
+}
+
+/* Footer-describe-sec */
+.describe {
+    height: 20vh;
+    width: 100%;
+    padding: 1.5%;
+    background-color: #232F3E;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.describ-sec{
+    height: 100%;
+    width: 75%;
+    background-color: #232F3E;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-img{
+    height: 10vh;
+    width: auto;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.footer-but {
+    display: flex;
+    gap: 5px;
+    width: 50%;
+    height: 45%;
+}
+
+.foo-but {
+    padding: 2%;
+    width: 100%;
+    border: 1px solid #848688;
+    border-radius: 3px;
+
+    p{
+        font-size: 0.65rem;
+    }
+}
+
+/* footer-level-list */
+
+.footer-level-list {
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    background-color: #131A22;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5%;
+}
+
+.footer-level {
+    font-family: arial;
+    height: auto;
+    width: 10%;
+
+    h3{
+        color: white;
+        font-size: 90%;
+    }
+    p{
+        color: #848688;
+        font-size: 85%;
+    }
+    
+}
+
+/* footer-final */
+
+.footer-final {
+    width: 100%;
+    background-color: #131A22;
+    color: white;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.final-div {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1%;
+    font-size: 15px
+}
+
+/* Media Quaries */
+
+@media screen and (max-width:768px){
+
+    * {
+        padding: 0px;
+        margin: 0px;
+        font-family: Arial;
+        box-sizing: border-box;
+    }
+
+    /* Nav-sec */
+
+    .navbar {
+
+        .add-first {
+            font-size: 21%;
+        }
+
+        .add-second {
+            font-size: 51%;
+        }
+
+        span {
+            font-size: 45%;
+        }
+
+        .nav-sign {
+            font-size: 51%;
+        }
+
+        .nav-car {
+            font-size: 85%;
+        }
+
+        .nav-search {
+            height: 45%;
+            margin: 0px;
+
+            .Search-selct {
+                font-size: 70%;
+                width: 20%;
+            }
+            .search-input {
+                font-size: 70%
+            }
+            .search-icon {
+                width: 15%;
+            }
+            .search-icon i {
+                font-size: 70%;
+            }
+        }
+
+        .nav-car {
+            margin-top: 1.5%;
+        }
+
+        .nav-car i {
+            font-size: 145%;
+        }
+
+    }
+
+    /* Nav-End */
+
+    /* Panel */
+
+    .panel {
+        padding: 1.5%;
+        font-size: 75%;
+
+        .panel-ops {
+            font-size: 75%;
+        }
+
+        .panel-details{
+            font-size: 74.5%;
+        }
+
+    }
+
+    /* Hero-section */
+
+    .hero-section {
+        height: 10rem;
+
+        .hero-p p {
+            font-size: 45%;
+        }
+
+    }
+
+    /* Shopsection */
+
+    .shopsection {
+
+        .mainor-box {
+            height: 17rem;
+
+            header {
+                font-size: 0.5rem;
+            }
+
+            footer {
+                font-size: 0.5rem;
+            }
+
+        }
+
+        .major-box {
+            height: 17rem;
+            
+            header {
+                font-size: 0.5rem;
+            }
+
+            .box {
+                font-size: 0.5rem;
+            }
+
+            footer {
+                font-size: 0.5rem;
+            }
+
+        }
+
+    }
+    
+    /* footer */
+
+    .describe{
+
+        .footer-img {
+            height: 50%;
+        }
+
+        .foo-but {
+
+            p {
+                font-size: 40%;
+            }
+
+        }
+
+    }
+
+    .footer-level-list {
+
+        .footer-level {
+
+            h3 {
+                font-size: 55%;
+            }
+
+            p {
+                font-size: 50%;
+            }
+
+        }
+
+    }
+
+    .footer-final {
+
+        .final-div {
+            font-size: 10px;
+        }
+
+    }
+
+}
+
+@media screen and (max-width:426px) {
+
+    /* navbar */
+
+   .navbar {
+
+        .nav-logo {
+            height: 30px;
+            width: 10%;
+        }
+
+        .nav-address {
+            .add-first {
+                margin-left: 10px;
+                font-size: 5px;
+            }
+
+            i {
+                font-size: 10px;
+            }
+
+        }
+
+        .nav-search {
+            font-size: 10px;
+            height: 15px;
+
+            .Search-selct {
+                width: 35%;
+                border: 0px;
+            }
+
+            .search-input {
+                border: 0px;
+            }
+
+        }
+
+        
+        p {
+            font-size: 10px;
+        }
+        .nav-sign {
+            font-size: 7.5px;
+        }
+
+        .nav-car {
+            margin-top: 0px;
+            font-size: 7.5px;
+
+            i {
+                font-size: 12.5px;
+            }
+
+        }
+
+    }
+
+    .panel {
+        font-size: 50%;
+    }
+
+    .hero-section {
+        .hero-p {
+            p {
+                font-size: 5px;
+            }
+        }
+    }
+
+    .shopsection {
+        .mainor-box {
+            height: 10rem;
+            header {
+                font-size: 0.4rem;
+            }
+            footer {
+                font-size: 0.4rem;
+            }
+        }
+        .major-box {
+            height: 10rem;
+            header {
+                font-size: 0.4rem;
+            }
+            .box {
+                font-size: 0.25rem;
+            }
+            footer {
+                font-size: 0.4rem;
+            }
+        }
+    }
+
+    .roter-slide {
+        .roter-header{
+            font-size: 0.4rem;
+        }
+    }
+
+    footer {
+
+        .button {
+            font-size: 0.5rem;
+        }
+
+        .footer-sec {
+            .footer-list {
+                h3 {
+                    font-size: 0.4rem;
+                }
+                li {
+                    font-size: 0.3rem;
+                }
+            }
+        }
+
+        .describe {
+            .describ-sec {
+                width: 100%;
+
+                .footer-but {
+                    height: 20%;
+                }
+
+            }
+        }
+
+        .footer-level-list {
+            .footer-level {
+                h3 {
+                    font-size: 0.4rem;
+                }
+                p {
+                    font-size: 0.3rem;
+                }
+            }
+        }
+
+        .footer-final {
+            .final-div {
+                font-size: 0.3rem;
+            }
+        }
+
+    }
+
+}
+
+@media screen and (max-width:320px){
+
+    header {
+
+        nav {
+
+            .navbar {
+                .nav-address {
+                    .add-first {
+                        font-size: 0.175rem;
+                    }
+                    .add-second {
+                        font-size: 0.3rem;
+                    }
+                }
+                .nav-search {
+                    height: 10px;
+                    .Search-selct {
+                        font-size: 0.25rem;
+                    }
+                    .search-input {
+                        font-size: 0.25rem;
+                        width: 55%;
+                    }
+                }
+            }
+
+        }
+
+    }
+
+    .panel {
+        font-size: 0.5rem;
+        height: 20px;
+    }
+
+    .hero-section {
+        width: 100%;
+        height: 125px;
+        .hero-p p {
+            font-size: 0.25rem;
+        }
+    }
+
+    .shopsection {
+        .mainor-box {
+            height: 7.5rem;
+            header{
+                font-size: 0.25rem;
+            }
+            footer {
+                font-size: 0.2rem;
+            }
+        }
+        .major-box {
+            height: 7.5rem;
+            header{
+                font-size: 0.25rem;
+            }
+            .box {
+                font-size: 0.215rem;
+            }
+            footer {
+                font-size: 0.2rem;
+            }
+        }
+    }
+
+    .roter-slide {
+        .roter-header {
+            font-size: 0.25rem;
+        }
+    }
+
+    footer {
+        .button {
+            font-size: 0.35rem;
+        }
+        .describe{
+
+            .describ-sec{
+
+                .footer-but {
+
+                    .foo-but {
+                        width: 60%;
+                        font-size: 0.75rem;
+                    }
+
+                }
+
+            }
+
+        }
+        .footer-level-list {
+
+            .footer-level {
+
+                h3 {
+                    font-size: 0.25rem;
+                }
+
+                p {
+                    font-size: 0.2rem;
+                }
+
+            }
+
+        }
+
+    }
+
+}
