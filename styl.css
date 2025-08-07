@@ -842,7 +842,7 @@ img{
 
     .shopsection {
         .mainor-box {
-            height: 7.5rem;
+            height: 5rem;
             header{
                 font-size: 0.25rem;
             }
@@ -851,7 +851,7 @@ img{
             }
         }
         .major-box {
-            height: 7.5rem;
+            height: 5rem;
             header{
                 font-size: 0.25rem;
             }
