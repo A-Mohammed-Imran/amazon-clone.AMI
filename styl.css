@@ -209,7 +209,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 2.5%;
-    row-gap: 2rem;
+    row-gap: 1rem;
     background-color: gainsboro;
 }
 
@@ -570,6 +570,7 @@ img{
     /* Shopsection */
 
     .shopsection {
+        row-gap: 0.8rem;
 
         .mainor-box {
             height: 17rem;
@@ -721,6 +722,7 @@ img{
     }
 
     .shopsection {
+        row-gap: 0.6rem;
         .mainor-box {
             height: 7.5rem;
             header {
@@ -844,6 +846,7 @@ img{
     }
 
     .shopsection {
+        row-gap: 0.4rem;
         .mainor-box {
             height: 5rem;
             header{
